@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "order": 10,
+  "enabled": true,
+  "origins": [
+    "origins-classes:banker",
+  	"origins-classes:beekeeper",
+    "origins-classes:blacksmith",
+    "origins-classes:botanist",
+    "origins-classes:baker",
+    "origins-classes:doctor",
+    "origins-classes:fisherman",
+    "origins-classes:hunter",
+    "origins-classes:malacologist",
+    "origins-classes:mechanic",
+    "origins-classes:moonshiner",
+    "origins-classes:rancher",
+    "origins-classes:mason",
+    "origins-classes:miner",
+    "origins-classes:fletcher",
+    "origins-classes:lumberjack",
+    "origins-classes:librarian",
+    "origins-classes:explorer"
+  ]
+}

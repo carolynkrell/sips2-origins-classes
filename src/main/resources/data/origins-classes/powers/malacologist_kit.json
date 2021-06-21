@@ -1,0 +1,12 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:leather_boots",
+      "tag": "{Enchantments:[{ id:\"minecraft:depth_strider\", lvl:1s}]}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"powers": [
+		"origins-classes:larger_size"
+	],
+	"icon": {
+		"item": "minecraft:player_head"
+	},
+	"order": 11,
+	"impact": 0
+}

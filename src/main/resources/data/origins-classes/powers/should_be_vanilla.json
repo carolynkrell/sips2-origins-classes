@@ -1,0 +1,238 @@
+{
+  "type": "origins:multiple",
+  "craft_chainmail_helmet": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/chainmail_helmet",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "###",
+        "# #"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        }
+      },
+      "result": {
+        "item": "minecraft:chainmail_helmet",
+        "count": 1
+      }
+    }
+  },
+  "craft_chainmail_chestplate": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/chainmail_chestplate",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "# #",
+        "###",
+        "###"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        }
+      },
+      "result": {
+        "item": "minecraft:chainmail_chestplate",
+        "count": 1
+      }
+    }
+  },
+  "craft_chainmail_leggings": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/chainmail_leggings",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "###",
+        "# #",
+        "# #"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        }
+      },
+      "result": {
+        "item": "minecraft:chainmail_leggings",
+        "count": 1
+      }
+    }
+  },
+  "craft_chainmail_boots": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/chainmail_boots",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "# #",
+        "# #"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        }
+      },
+      "result": {
+        "item": "minecraft:chainmail_boots",
+        "count": 1
+      }
+    }
+  },
+  "craft_saddle": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/saddle",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "###",
+        "TST"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:leather"
+        },
+        "T": {
+          "item": "minecraft:tripwire_hook"
+        },
+        "S": {
+          "item": "minecraft:string"
+        }
+      },
+      "result": {
+        "item": "minecraft:saddle",
+        "count": 1
+      }
+    }
+  },
+  "craft_diamond_horse_armor": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/diamond_horse_armor",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " #D",
+        "DSD",
+        "D D"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        },
+        "D": {
+          "item": "minecraft:diamond"
+        },
+        "S": {
+          "item": "minecraft:saddle"
+        }
+      },
+      "result": {
+        "item": "minecraft:diamond_horse_armor",
+        "count": 1
+      }
+    }
+  },
+  "craft_iron_horse_armor": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/iron_horse_armor",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " #D",
+        "DSD",
+        "D D"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "S": {
+          "item": "minecraft:saddle"
+        }
+      },
+      "result": {
+        "item": "minecraft:iron_horse_armor",
+        "count": 1
+      }
+    }
+  },
+  "craft_leather_horse_armor": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/leather_horse_armor",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " #D",
+        "DSD",
+        "D D"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        },
+        "D": {
+          "item": "minecraft:leather"
+        },
+        "S": {
+          "item": "minecraft:saddle"
+        }
+      },
+      "result": {
+        "item": "minecraft:leather_horse_armor",
+        "count": 1
+      }
+    }
+  },
+  "craft_golden_horse_armor": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/golden_horse_armor",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " #D",
+        "DSD",
+        "D D"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+        },
+        "D": {
+          "item": "minecraft:gold_ingot"
+        },
+        "S": {
+          "item": "minecraft:saddle"
+        }
+      },
+      "result": {
+        "item": "minecraft:golden_horse_armor",
+        "count": 1
+      }
+    }
+  },
+  "craft_name_tag": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:blacksmith/name_tag",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:string"
+        },
+        {
+          "item": "minecraft:paper"
+        }
+      ],
+      "result": {
+        "item": "minecraft:name_tag",
+        "count": 1
+      }
+    }
+  }
+}

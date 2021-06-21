@@ -1,0 +1,12 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:scaffolding",
+      "amount": 32
+    },
+    {
+      "item": "minecraft:stonecutter"
+    }
+  ]
+}

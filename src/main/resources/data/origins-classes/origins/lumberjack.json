@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins-classes:timber",
+    "origins-classes:woodworker",
+    "origins-classes:faster_harvest",
+    "origins-classes:axe_specialist",
+    "origins-classes:lumberjack_kit"
+  ],
+  "icon": "minecraft:iron_axe",
+  "order": 4,
+  "impact": 0
+}

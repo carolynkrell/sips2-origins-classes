@@ -1,0 +1,36 @@
+{
+  "type": "origins:multiple",
+  "craft_arrow": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:fletcher/arrow",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "#",
+        "/",
+        "F"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:flint"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        },
+        "F": {
+          "item": "minecraft:feather"
+        }
+      },
+      "result": {
+        "item": "minecraft:arrow",
+        "count": 8
+      }
+    }
+  },
+  "craft_potion_arrows": {
+    "type": "origins:simple"
+  },
+  "craft_crossbow": {
+    "type": "origins:simple"
+  }
+}

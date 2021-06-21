@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:midas_touch",
+    "origins-classes:vault_keeper",
+    "origins-classes:banker_kit"
+  ],
+  "icon": "minecraft:gold_ingot",
+  "order": 15,
+  "impact": 0
+}

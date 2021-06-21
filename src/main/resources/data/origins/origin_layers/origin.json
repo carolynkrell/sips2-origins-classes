@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "order": 0,
+  "enabled": true,
+  "origins": [
+    "origins:human",
+    "origins:shorter_human",
+    "origins:taller_human"
+  ],
+  "allow_random": false,
+  "allow_random_unchoosable": false
+}

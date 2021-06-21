@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:the_numbers",
+    "origins-classes:what_do_they_mean",
+    "origins-classes:mason_kit"
+  ],
+  "icon": "minecraft:stonecutter",
+  "order": 3,
+  "impact": 0
+}

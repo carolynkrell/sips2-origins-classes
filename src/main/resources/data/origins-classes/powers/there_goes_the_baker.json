@@ -1,0 +1,119 @@
+{
+  "type": "origins:multiple",
+  "better_food": {
+    "type": "origins:simple"
+  },
+  "craft_bread": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:baker/bread",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:wheat"
+        },
+        {
+          "item": "minecraft:wheat"
+        }
+      ],
+      "result": {
+        "item": "minecraft:bread",
+        "count": 1
+      }
+    }
+  },
+  "craft_cookie": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:baker/cookie",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:wheat"
+        },
+        {
+          "item": "minecraft:cocoa_beans"
+        }
+      ],
+      "result": {
+        "item": "minecraft:cookie",
+        "count": 8
+      }
+    }
+  },
+  "craft_rabbit_stew": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:baker/rabbit_stew",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:baked_potato"
+        },
+        {
+          "item": "minecraft:cooked_rabbit"
+        },
+        {
+          "item": "minecraft:carrot"
+        },
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "result": {
+        "item": "minecraft:rabbit_stew",
+        "count": 1
+      }
+    }
+  },
+  "craft_cake": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:baker/cake",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:wheat"
+        },
+        {
+          "item": "minecraft:sugar"
+        },
+        {
+          "item": "minecraft:egg"
+        },
+        {
+          "item": "minecraft:milk_bucket"
+        }
+      ],
+      "result": {
+        "item": "minecraft:cake",
+        "count": 1
+      }
+    }
+  },
+  "craft_beetroot_soup": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:baker/beetroot_soup",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "minecraft:beetroot"
+        },
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "result": {
+        "item": "minecraft:beetroot_soup",
+        "count": 1
+      }
+    }
+  }
+}

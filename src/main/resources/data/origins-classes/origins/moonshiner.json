@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:lightweight",
+    "origins-classes:alcohol_aficionado",
+    "origins-classes:any_netherless_skip",
+    "origins-classes:moonshiner_kit"
+  ],
+  "icon": "minecraft:potion",
+  "order": 17,
+  "impact": 0
+}

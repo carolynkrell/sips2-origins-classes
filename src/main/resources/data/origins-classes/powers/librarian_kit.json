@@ -1,0 +1,11 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:lectern"
+    },
+    {
+      "item": "minecraft:name_tag"
+    }
+  ]
+}

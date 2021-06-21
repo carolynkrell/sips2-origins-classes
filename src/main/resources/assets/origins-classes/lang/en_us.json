@@ -1,0 +1,261 @@
+{
+  "layer.origins-classes.class.name": "Class",
+  "layer.origins-classes.class.missing_origin.name": "Missing",
+  "layer.origins-classes.class.missing_origin.description": "You do not have a class.",
+
+  "origins-classes.food_bonus": "Nourishment: +%s",
+  "origins-classes.mining_speed_bonus": "Mining Speed: %s",
+  "origins-classes.better_bonemeal": "Botanist Boosted",
+  "origins-classes.longer_potions": "Extended",
+  "origins-classes.alcohol": "Alcohol",
+
+  "origin.origins-classes.banker.name": "Banker",
+  "origin.origins-classes.banker.description": " ",
+
+  "origin.origins-classes.botanist.name": "Botanist",
+  "origin.origins-classes.botanist.description": " ",
+
+  "origin.origins-classes.doctor.name": "Doctor",
+  "origin.origins-classes.doctor.description": " ",
+
+  "origin.origins-classes.librarian.name": "Librarian",
+  "origin.origins-classes.librarian.description": " ",
+
+  "origin.origins-classes.malacologist.name": "Malacologist",
+  "origin.origins-classes.malacologist.description": " ",
+
+  "origin.origins-classes.beekeeper.name": "Beekeeper",
+  "origin.origins-classes.beekeeper.description": " ",
+
+  "origin.origins-classes.blacksmith.name": "Blacksmith",
+  "origin.origins-classes.blacksmith.description": " ",
+
+  "origin.origins-classes.fletcher.name": "Fletcher",
+  "origin.origins-classes.fletcher.description": " ",
+
+  "origin.origins-classes.mason.name": "Mason",
+  "origin.origins-classes.mason.description": " ",
+
+  "origin.origins-classes.mechanic.name": "Mechanic",
+  "origin.origins-classes.mechanic.description": " ",
+
+  "origin.origins-classes.moonshiner.name": "Moonshiner",
+  "origin.origins-classes.moonshiner.description": " ",
+
+  "origin.origins-classes.baker.name": "Baker",
+  "origin.origins-classes.baker.description": " ",
+
+  "origin.origins-classes.explorer.name": "Explorer",
+  "origin.origins-classes.explorer.description": " ",
+
+  "origin.origins-classes.fisherman.name": "Fisherman",
+  "origin.origins-classes.fisherman.description": " ",
+
+  "origin.origins-classes.hunter.name": "Hunter",
+  "origin.origins-classes.hunter.description": " ",
+
+  "origin.origins-classes.lumberjack.name": "Lumberjack",
+  "origin.origins-classes.lumberjack.description": " ",
+
+  "origin.origins-classes.miner.name": "Miner",
+  "origin.origins-classes.miner.description": " ",
+
+  "origin.origins-classes.rancher.name": "Rancher",
+  "origin.origins-classes.rancher.description": " ",
+
+
+
+  "power.origins-classes.midas_touch.name": "Midas's Touch",
+  "power.origins-classes.midas_touch.description": "Gold amor and tools have the stats of Diamond.",
+
+  "power.origins-classes.vault_keeper.name": "Vault Keeper",
+  "power.origins-classes.vault_keeper.description": "Enderchest can be picked up without Silk Touch, and you can craft chests and barrels cheaper.",
+
+  "power.origins-classes.there_goes_the_baker.name": "♪ There Goes The Baker ♪",
+  "power.origins-classes.there_goes_the_baker.description": "Food is cheaper to craft and is more nourishing.",
+
+  "power.origins-classes.kinda_sus.name": "Kinda Sus...",
+  "power.origins-classes.kinda_sus.description": "You own a brown mooshroom.",
+
+  "power.origins-classes.bee_lika_da_you.name": "Bee Lika Da You",
+  "power.origins-classes.bee_lika_da_you.description": "Bees do not get angry towards you, and you cannot be poisoned.",
+
+  "power.origins-classes.apiarist.name": "Apiarist",
+  "power.origins-classes.apiarist.description": "Chain armor has the stats of Diamond, and honey bottles are more nourishing to you.",
+
+  "power.origins-classes.rip_the_hive.name": "R.I.P. The Hive",
+  "power.origins-classes.rip_the_hive.description": "You can craft Bee Nests and pick them up without Silk Touch, and you can craft candles.",
+
+  "power.origins-classes.forge_port.name": "Forge Port??????",
+  "power.origins-classes.forge_port.description": "You craft armor and tools with better stats, and you can repair them more efficiently.",
+
+  "power.origins-classes.should_be_vanilla.name": "Should Be Vanilla",
+  "power.origins-classes.should_be_vanilla.description": "You can craft saddles, name tags, horse armor, and chain armor.",
+
+  "power.origins-classes.snip_snip.name": "Snip, Snip",
+  "power.origins-classes.snip_snip.description": "Shears do not take durability when you use them.",
+
+  "power.origins-classes.the_dyer.name": "The Dyer",
+  "power.origins-classes.the_dyer.description": "You craft double dye from all sources.",
+
+  "power.origins-classes.flower_power.name": "Flower Power",
+  "power.origins-classes.flower_power.description": "You can craft every type of flower and most plants, as well as better bonemeal.",
+
+  "power.origins-classes.who.name": "Who?",
+  "power.origins-classes.who.description": "You can craft better Regeneration, Healing, Poison, and Damage potions.",
+
+  "power.origins-classes.cant_keep_you_away.name": "Can't Keep You Away",
+  "power.origins-classes.cant_keep_you_away.description": "You craft cheaper golden apples and golden carrots.",
+
+  "power.origins-classes.dudududu.name": "Dudududu",
+  "power.origins-classes.dudududu.description": "You lose no saturation from sprinting, and wearing leather boots gives you Speed and Jump Boost I.",
+
+  "power.origins-classes.built_different.name": "Built Different",
+  "power.origins-classes.built_different.description": "You have permanent Feather Falling and Respiration I.",
+
+  "power.origins-classes.angler.name": "Angler",
+  "power.origins-classes.angler.description": "You have permanent Luck of the Sea and Lure I, and the fish you cook are more nutritious.",
+
+  "power.origins-classes.experienced.name": "Experienced",
+  "power.origins-classes.experienced.description": "You gain more EXP from fishing.",
+
+  "power.origins-classes.gunslinger.name": "Gunslinger",
+  "power.origins-classes.gunslinger.description": "Your projectiles are more accurate, and you move faster with a bow.",
+
+  "power.origins-classes.munitions_expert.name": "Munitions Expert",
+  "power.origins-classes.munitions_expert.description": "You craft cheaper arrows and potion arrows, and you can craft crossbows.",
+
+  "power.origins-classes.oh_dreammmmmm.name": "Oh Dreammmmmm~",
+  "power.origins-classes.oh_dreammmmmm.description": "All mobs in an 12 block radius have a toggleable spectral effect.",
+
+  "power.origins-classes.1_in_75_trillion.name": "1 in 7.5 Trillion",
+  "power.origins-classes.1_in_75_trillion.description": "You sometimes get 2x mob drops.",
+
+  "power.origins-classes.combat_specialist.name": "Combat Specialist",
+  "power.origins-classes.combat_specialist.description": "You do 2x damage to mobs, but you lose saturation faster.",
+
+  "power.origins-classes.enchanted.name": "Enchanted",
+  "power.origins-classes.enchanted.description": "You get better enchants on average.",
+
+  "power.origins-classes.bookworm.name": "Bookworm",
+  "power.origins-classes.bookworm.description": "You craft cheaper books and bookshelves.",
+
+  "power.origins-classes.running_out_of_time.name": "Running Out of Time",
+  "power.origins-classes.running_out_of_time.description": "You can craft writable books without ink sacs or feathers.",
+
+  "power.origins-classes.woodworker.name": "Woodworker",
+  "power.origins-classes.woodworker.description": "You craft cheaper planks and stairs, and can craft slabs and stairs back into planks.",
+
+  "power.origins-classes.timber.name": "Timber!!",
+  "power.origins-classes.timber.description": "You instamine logs at Efficiency V with a Diamond Axe, and you treecapitate.",
+
+  "power.origins-classes.axe_specialist.name": "Axe Specialist",
+  "power.origins-classes.axe_specialist.description": "You do +1 damage to mobs with an axe.",
+
+  "power.origins-classes.snail_specialist.name": "Snail Specialist",
+  "power.origins-classes.snail_specialist.description": "You can craft Slimeballs and Prismarine Blocks, and you have permanent Respiration and Aqua Affinity.",
+
+  "power.origins-classes.catch_and_release.name": "Catch and Release",
+  "power.origins-classes.catch_and_release.description": "You can craft Bucketed Fish, and you get 2x squid drops.",
+
+  "power.origins-classes.conservationalist.name": "Conservationalist",
+  "power.origins-classes.conservationalist.description": "You can pick up sea-related blocks without Silk Touch.",
+
+  "power.origins-classes.the_numbers.name": "The Numbers!",
+  "power.origins-classes.the_numbers.description": "You can craft Cut Copper and Scaffolding easier.",
+
+  "power.origins-classes.redstone_engineer.name": "Redstone \"Engineer\"",
+  "power.origins-classes.redstone_engineer.description": "You have cheaper redstone and slime/honey block crafts.",
+
+  "power.origins-classes.what_do_they_mean.name": "What Do They Mean?",
+  "power.origins-classes.what_do_they_mean.description": "You can uncompress Quartz blocks, and you have conversion recipes between many types of blocks.",
+
+  "power.origins-classes.conductor.name": "Conductor",
+  "power.origins-classes.conductor.description": "You have cheaper rail crafts.",
+
+  "power.origins-classes.down_in_the_deep.name": "Down In The Deep",
+  "power.origins-classes.down_in_the_deep.description": "You break stone faster and have a chance for 2x ore drops.",
+
+  "power.origins-classes.im_a_minor.name": "I'm a Minor!",
+  "power.origins-classes.im_a_minor.description": "You don't lose saturation from mining.",
+
+  "power.origins-classes.lightweight.name": "Lightweight",
+  "power.origins-classes.lightweight.description": "Potions you drink effect you for twice as long.",
+
+  "power.origins-classes.any_netherless_skip.name": "Any% Netherless Skip",
+  "power.origins-classes.any_netherless_skip.description": "You can craft blaze powder.",
+
+  "power.origins-classes.alcohol_aficionado.name": "Alcohol Aficionado",
+  "power.origins-classes.alcohol_aficionado.description": "You can make Alcohol potions, and potions you make last longer.",
+
+  "power.origins-classes.sex_improver.name": "Sex Improver",
+  "power.origins-classes.sex_improver.description": "You have a chance to breed twins when breeding any animal.",
+
+  "power.origins-classes.cowboy.name": "Cowboy",
+  "power.origins-classes.cowboy.description": "Horses you breed have better stats on average.",
+
+  "power.origins-classes.hard_workin.name": "Hard Workin'",
+  "power.origins-classes.hard_workin.description": "Sometimes you get 2x passive mob drops and crop yield.",
+
+
+
+  "power.origins-classes.banker_kit.name": "From The Wagon",
+  "power.origins-classes.banker_kit.description": "You start with an Enderchest.",
+
+  "power.origins-classes.baker_kit.name": "From The Wagon",
+  "power.origins-classes.baker_kit.description": "You start with a Cocoa Bean and a Jungle Log.",
+
+  "power.origins-classes.beekeeper_kit.name": "From The Wagon",
+  "power.origins-classes.beekeeper_kit.description": "You start with a Bane of Arthropods V Stick.",
+
+  "power.origins-classes.blacksmith_kit.name": "From The Wagon",
+  "power.origins-classes.blacksmith_kit.description": "You start with a Smithing Table.",
+
+  "power.origins-classes.botanist_kit.name": "From The Wagon",
+  "power.origins-classes.botanist_kit.description": "You start with Shears, one of every Flower, and an Oak Sapling.",
+
+  "power.origins-classes.doctor_kit.name": "From The Wagon",
+  "power.origins-classes.doctor_kit.description": "You start with a Healing I potion, two Regeneration II potions, and a Brewing Stand.",
+
+  "power.origins-classes.explorer_kit.name": "From The Wagon",
+  "power.origins-classes.explorer_kit.description": "You start with Leather Boots with Unbreaking I.",
+
+  "power.origins-classes.fisherman_kit.name": "From The Wagon",
+  "power.origins-classes.fisherman_kit.description": "You start with a Fishing Rod with Mending.",
+
+  "power.origins-classes.fletcher_kit.name": "From The Wagon",
+  "power.origins-classes.fletcher_kit.description": "You start with a Bow and 16 Arrows.",
+
+  "power.origins-classes.hunter_kit.name": "From The Wagon",
+  "power.origins-classes.hunter_kit.description": "You start with an Iron Sword and a Shield.",
+
+  "power.origins-classes.librarian_kit.name": "From The Wagon",
+  "power.origins-classes.librarian_kit.description": "You start with a Lectern and a Name Tag.",
+
+  "power.origins-classes.lumberjack_kit.name": "From The Wagon",
+  "power.origins-classes.lumberjack_kit.description": "You start with an Iron Axe.",
+
+  "power.origins-classes.malacologist_kit.name": "From The Wagon",
+  "power.origins-classes.malacologist_kit.description": "You start with a Water Bucket and Leather Boots with Depth Strider I.",
+
+  "power.origins-classes.mason_kit.name": "From The Wagon",
+  "power.origins-classes.mason_kit.description": "You start with 32 Scaffolding and a Stonecutter.",
+
+  "power.origins-classes.mechanic_kit.name": "From The Wagon",
+  "power.origins-classes.mechanic_kit.description": "You start with 32 Rails, a Minecart, and 32 Redstone Dust.",
+
+  "power.origins-classes.miner_kit.name": "From The Wagon",
+  "power.origins-classes.miner_kit.description": "You start with an Iron Pickaxe.",
+
+  "power.origins-classes.moonshiner_kit.name": "From The Wagon",
+  "power.origins-classes.moonshiner_kit.description": "You start with a Brewing Stand, a Nether Wart, and a Soul Sand.",
+
+  "power.origins-classes.rancher_kit.name": "From The Wagon",
+  "power.origins-classes.rancher_kit.description": "You start with an Iron Hoe and 4 Leads.",
+
+
+
+  "item.origins-classes.beer.name": "Beer",
+  "item.origins-classes.shirley_temple.name": "Shirley Temple",
+  "item.origins-classes.whiskey.name": "Whiskey"
+}

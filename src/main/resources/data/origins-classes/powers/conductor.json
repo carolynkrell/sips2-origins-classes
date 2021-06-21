@@ -1,0 +1,14 @@
+{
+  "type": "origins-classes:craft_amount",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "minecraft:rails"
+    }
+  },
+  "modifier": {
+    "name": "Mechanic rail amount modifier",
+    "operation": "multiply_base",
+    "value": 1
+  }
+}

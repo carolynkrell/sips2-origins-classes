@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:there_goes_the_baker",
+    "origins-classes:kinda_sus",
+    "origins-classes:baker_kit"
+  ],
+  "icon": "minecraft:rabbit_stew",
+  "order": 5,
+  "impact": 0
+}

@@ -1,0 +1,12 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:bow"
+    },
+    {
+      "item": "minecraft:arrow",
+      "amount": 16
+    }
+  ]
+}

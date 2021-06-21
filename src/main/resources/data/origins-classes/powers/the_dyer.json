@@ -1,0 +1,14 @@
+{
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "origins-classes:dyes"
+      }
+    },
+    "modifier": {
+      "name": "Botanist double dye",
+      "operation": "multiply_base",
+      "value": 1
+    }
+}

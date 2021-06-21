@@ -1,0 +1,993 @@
+{
+  "type": "origins:multiple",
+  "better_bonemeal": {
+    "type": "origins:simple"
+  },
+  "craft_spore_blossom": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/spore_blossom",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:moss_carpet"
+        },
+        {
+          "item": "minecraft:peony"
+        }
+      ],
+      "result": {
+        "item": "minecraft:spore_blossom",
+        "count": 1
+      }
+    }
+  },
+  "craft_moss_carpet": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/moss_carpet",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "##"
+      ],
+      "key": {
+        "#": {
+          "tag": "minecraft:leaves"
+        }
+      },
+      "result": {
+        "item": "minecraft:moss_carpet",
+        "count": 1
+      }
+    }
+  },
+  "craft_moss_block": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/moss_block",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:moss_carpet"
+        },
+        {
+          "item": "minecraft:moss_carpet"
+        },
+        {
+          "item": "minecraft:moss_carpet"
+        },
+        {
+          "item": "minecraft:stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:moss_block",
+        "count": 1
+      }
+    }
+  },
+  "craft_hanging_roots": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/hanging_roots",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:dead_bush"
+        },
+        {
+          "item": "minecraft:vine"
+        }
+      ],
+      "result": {
+        "item": "minecraft:hanging_roots",
+        "count": 1
+      }
+    }
+  },
+  "craft_glow_berries": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/glow_berries",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:sweet_berries"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        }
+      ],
+      "result": {
+        "item": "minecraft:glow_berries",
+        "count": 1
+      }
+    }
+  },
+  "craft_glow_lichen": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/glow_lichen",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:glow_ink_sac"
+        },
+        {
+          "item": "minecraft:vine"
+        }
+      ],
+      "result": {
+        "item": "minecraft:glow_lichen",
+        "count": 1
+      }
+    }
+  },
+  "craft_small_dripleaf": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/small_dripleaf",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:lily_pad"
+        },
+        {
+          "item": "minecraft:vine"
+        }
+      ],
+      "result": {
+        "item": "minecraft:small_dripleaf",
+        "count": 1
+      }
+    }
+  },
+  "craft_big_dripleaf": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/big_dripleaf",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:lily_pad"
+        },
+        {
+          "item": "minecraft:small_dripleaf"
+        }
+      ],
+      "result": {
+        "item": "minecraft:big_dripleaf",
+        "count": 1
+      }
+    }
+  },
+  "craft_azalea_leaves": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/azalea_leaves",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:oak_leaves"
+        },
+        {
+          "item": "minecraft:oak_leaves"
+        },
+        {
+          "item": "minecraft:oak_leaves"
+        },
+        {
+          "item": "minecraft:oak_leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:azalea_leaves",
+        "count": 4
+      }
+    }
+  },
+  "craft_flowering_azalea_leaves": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/flowering_azalea_leaves",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:allium"
+        },
+        {
+          "item": "minecraft:allium"
+        },
+        {
+          "item": "minecraft:azalea_leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:flowering_azalea_leaves",
+        "count": 1
+      }
+    }
+  },
+  "craft_azalea": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/azalea",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "#",
+        "/"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:azalea_leaves"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "minecraft:azalea",
+        "count": 1
+      }
+    }
+  },
+  "craft_flowering_azalea": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/flowering_azalea",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "#",
+        "/"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:flowering_azalea_leaves"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "minecraft:flowering_azalea",
+        "count": 1
+      }
+    }
+  },
+  "craft_seagrass": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/seagrass",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:grass"
+        },
+        {
+          "item": "minecraft:water_bucket"
+        }
+      ],
+      "result": {
+        "item": "minecraft:seagrass",
+        "count": 1
+      }
+    }
+  },
+  "craft_kelp": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/kelp",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "tag": "minecraft:leaves"
+        },
+        {
+          "item": "minecraft:water_bucket"
+        },
+        {
+          "item": "minecraft:water_bucket"
+        },
+        {
+          "tag": "minecraft:leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:kelp",
+        "count": 2
+      }
+    }
+  },
+  "craft_bamboo": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/bamboo",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:tall_grass"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:bamboo",
+        "count": 2
+      }
+    }
+  },
+  "craft_sugar_cane": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/sugar_cane",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:bamboo"
+        },
+        {
+          "item": "minecraft:water_bucket"
+        },
+        {
+          "item": "minecraft:bamboo"
+        },
+        {
+          "item": "minecraft:sand"
+        }
+      ],
+      "result": {
+        "item": "minecraft:sugar_cane",
+        "count": 2
+      }
+    }
+  },
+  "craft_bone_meal": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/bone_meal",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:rotten_flesh"
+        },
+        {
+          "item": "minecraft:rotten_flesh"
+        },
+        {
+          "item": "minecraft:rotten_flesh"
+        }
+      ],
+      "result": {
+        "item": "minecraft:bone_meal",
+        "count": 2
+      }
+    }
+  },
+  "craft_wither_rose": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/wither_rose",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "minecraft:black_dye"
+        }
+      ],
+      "result": {
+        "item": "minecraft:wither_rose",
+        "count": 1
+      }
+    }
+  },
+  "craft_lily_of_the_valley": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/lily_of_the_valley",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:white_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:lily_of_the_valley",
+        "count": 1
+      }
+    }
+  },
+  "craft_large_fern": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/large_fern",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " #",
+        " /",
+        "W/"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:white_dye"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        },
+        "W": {
+          "item": "minecraft:wheat_seeds"
+        }
+      },
+      "result": {
+        "item": "minecraft:large_fern",
+        "count": 1
+      }
+    }
+  },
+  "craft_tall_grass": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/tall_grass",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " #",
+        " #",
+        "W/"
+      ],
+      "key": {
+        "#": {
+          "tag": "minecraft:leaves"
+        },
+        "W": {
+          "item": "minecraft:wheat_seeds"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        }
+      },
+      "result": {
+        "item": "minecraft:tall_grass",
+        "count": 1
+      }
+    }
+  },
+  "craft_dead_bush": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/dead_bush",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "result": {
+        "item": "minecraft:dead_bush",
+        "count": 1
+      }
+    }
+  },
+  "craft_fern": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/fern",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "tag": "minecraft:leaves"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "result": {
+        "item": "minecraft:fern",
+        "count": 1
+      }
+    }
+  },
+  "craft_grass": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/grass",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "tag": "minecraft:leaves"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "tag": "minecraft:leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:grass",
+        "count": 1
+      }
+    }
+  },
+  "craft_vine": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/vine",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "tag": "minecraft:leaves"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        }
+      ],
+      "result": {
+        "item": "minecraft:vine",
+        "count": 1
+      }
+    }
+  },
+  "craft_red_mushroom": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/red_mushroom",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:red_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "minecraft:stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:red_mushroom",
+        "count": 1
+      }
+    }
+  },
+  "craft_brown_mushroom": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/brown_mushroom",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:brown_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "item": "minecraft:stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:brown_mushroom",
+        "count": 1
+      }
+    }
+  },
+  "craft_lily_pad": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/lily_pad",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:water_bucket"
+        },
+        {
+          "item": "minecraft:green_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:lily_pad",
+        "count": 1
+      }
+    }
+  },
+  "craft_cornflower": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/cornflower",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:blue_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:cornflower",
+        "count": 1
+      }
+    }
+  },
+  "craft_peony": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/peony",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "###",
+        " / ",
+        "W/ "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:pink_dye"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        },
+        "W": {
+          "item": "minecraft:wheat_seeds"
+        }
+      },
+      "result": {
+        "item": "minecraft:peony",
+        "count": 1
+      }
+    }
+  },
+  "craft_rose_bush": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/rose_bush",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "###",
+        " / ",
+        "W/ "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:red_dye"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        },
+        "W": {
+          "item": "minecraft:wheat_seeds"
+        }
+      },
+      "result": {
+        "item": "minecraft:rose_bush",
+        "count": 1
+      }
+    }
+  },
+  "craft_sunflower": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/sunflower",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "###",
+        " / ",
+        "W/ "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:yellow_dye"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        },
+        "W": {
+          "item": "minecraft:wheat_seeds"
+        }
+      },
+      "result": {
+        "item": "minecraft:sunflower",
+        "count": 1
+      }
+    }
+  },
+  "craft_lilac": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/lilac",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "###",
+        " / ",
+        "W/ "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:magenta_dye"
+        },
+        "/": {
+          "item": "minecraft:stick"
+        },
+        "W": {
+          "item": "minecraft:wheat_seeds"
+        }
+      },
+      "result": {
+        "item": "minecraft:lilac",
+        "count": 1
+      }
+    }
+  },
+  "craft_pink_tulip": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/pink_tulip",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:pink_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "tag": "minecraft:leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:pink_tulip",
+        "count": 1
+      }
+    }
+  },
+  "craft_orange_tulip": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/orange_tulip",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:orange_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "tag": "minecraft:leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:orange_tulip",
+        "count": 1
+      }
+    }
+  },
+  "craft_red_tulip": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/red_tulip",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:red_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "tag": "minecraft:leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:red_tulip",
+        "count": 1
+      }
+    }
+  },
+  "craft_white_tulip": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/white_tulip",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:light_gray_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        },
+        {
+          "tag": "minecraft:leaves"
+        }
+      ],
+      "result": {
+        "item": "minecraft:white_tulip",
+        "count": 1
+      }
+    }
+  },
+  "craft_oxeye_daisy": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/oxeye_daisy",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:light_gray_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:oxeye_daisy",
+        "count": 1
+      }
+    }
+  },
+  "craft_azure_bluet": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/azure_bluet",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:light_gray_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:azure_bluet",
+        "count": 1
+      }
+    }
+  },
+  "craft_allium": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/allium",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:magenta_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:allium",
+        "count": 1
+      }
+    }
+  },
+  "craft_blue_orchid": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/blue_orchid",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:light_blue_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:blue_orchid",
+        "count": 1
+      }
+    }
+  },
+  "craft_dandelion": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/dandelion",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:yellow_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:dandelion",
+        "count": 1
+      }
+    }
+  },
+  "craft_poppy": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:botanist/poppy",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "minecraft:red_dye"
+        },
+        {
+          "item": "minecraft:wheat_seeds"
+        }
+      ],
+      "result": {
+        "item": "minecraft:poppy",
+        "count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:iron_hoe"
+    },
+    {
+      "item": "minecraft:lead",
+      "amount": 4
+    }
+  ]
+}

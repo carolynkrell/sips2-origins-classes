@@ -1,0 +1,17 @@
+{
+  "type": "origins:modify_harvest",
+  "block_condition": { 
+  	"type": "origins:or",
+  	"conditions": [ 
+  		{
+  			"type": "origins:in_tag",
+        	"tag": "minecraft:corals"
+  		},
+  		{
+  			"type": "origins:in_tag",
+        	"tag": "origins-classes:sea_blocks"
+  		}
+  	]
+  },
+  "allow": true
+}

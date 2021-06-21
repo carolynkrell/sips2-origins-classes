@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins-classes:sex_improver",
+    "origins-classes:hard_workin",
+    "origins-classes:cowboy",
+    "origins-classes:more_crop_drops",
+    "origins-classes:rancher_kit"
+  ],
+  "icon": "minecraft:lead",
+  "order": 2,
+  "impact": 0
+}

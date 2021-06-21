@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "origins-classes",
+  "version": "${version}",
+
+  "name": "Origins: Classes",
+  "description": "An add-on for the Origins mod which adds classes to the game.",
+  "authors": [
+    "Apace"
+  ],
+  "contact": {
+    "homepage": "https://apace100.github.io/origins-classes",
+    "sources": "https://github.com/apace100/origins-classes"
+  },
+
+  "license": "MIT",
+  "icon": "assets/origins-classes/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.apace100.originsclasses.OriginsClasses"
+    ],
+    "client": [
+      "io.github.apace100.originsclasses.OriginsClassesClient"
+    ]
+  },
+  "mixins": [
+    "origins-classes.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": ">=1.16.2",
+    "origins": ">=0.4.1"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

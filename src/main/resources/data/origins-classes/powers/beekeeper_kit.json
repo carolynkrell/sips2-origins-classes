@@ -1,0 +1,9 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:stick",
+      "tag": "{Enchantments:[{ id:\"minecraft:bane_of_arthropods\", lvl:5s}]}"
+    }
+  ]
+}

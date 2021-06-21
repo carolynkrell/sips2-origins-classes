@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:catch_and_release",
+    "origins-classes:snail_specialist",
+    "origins-classes:conservationalist",
+    "origins-classes:malacologist_kit"
+  ],
+  "icon": "minecraft:nautilus_shell",
+  "order": 17,
+  "impact": 0
+}

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:angler",
+    "origins-classes:experienced",
+    "origins-classes:fisherman_kit"
+  ],
+  "icon": "minecraft:fishing_rod",
+  "order": 7,
+  "impact": 0
+}

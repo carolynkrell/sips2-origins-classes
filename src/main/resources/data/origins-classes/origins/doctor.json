@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:who",
+    "origins-classes:cant_keep_you_away",
+    "origins-classes:doctor_kit"
+  ],
+  "icon": "minecraft:golden_apple",
+  "order": 17,
+  "impact": 0
+}

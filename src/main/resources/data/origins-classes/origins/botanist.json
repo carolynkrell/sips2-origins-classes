@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:snip_snip",
+    "origins-classes:flower_power",
+    "origins-classes:the_dyer",
+    "origins-classes:botanist_kit"
+  ],
+  "icon": "minecraft:shears",
+  "order": 16,
+  "impact": 0
+}

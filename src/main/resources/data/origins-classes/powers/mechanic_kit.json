@@ -1,0 +1,16 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:rail",
+      "amount": 32
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "item": "minecraft:redstone",
+      "amount": 32
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:bookworm",
+    "origins-classes:running_out_of_time",
+    "origins-classes:enchanted",
+    "origins-classes:librarian_kit"
+  ],
+  "icon": "minecraft:writable_book",
+  "order": 11,
+  "impact": 0
+}

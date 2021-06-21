@@ -1,0 +1,20 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:potion",
+      "tag": "{Potion:\"minecraft:healing\"}"
+    },
+    {
+      "item": "minecraft:potion",
+      "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+    },
+    {
+      "item": "minecraft:potion",
+      "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+    },
+    {
+      "item": "minecraft:brewing_stand"
+    }
+  ]
+}

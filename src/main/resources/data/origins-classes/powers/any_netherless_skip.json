@@ -1,0 +1,25 @@
+{
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "origins-classes:moonshiner/blaze_powder",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:gunpowder"
+      },
+      {
+        "item": "minecraft:redstone"
+      },
+      {
+        "item": "minecraft:glowstone_dust"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "result": {
+      "item": "minecraft:blaze_powder",
+      "count": 2
+    }
+  }
+}

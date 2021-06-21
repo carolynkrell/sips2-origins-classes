@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:combat_specialist",
+    "origins-classes:oh_dreammmmmm",
+    "origins-classes:1_in_75_trillion",
+    "origins-classes:hunter_kit"
+  ],
+  "icon": "minecraft:compass",
+  "order": 9,
+  "impact": 0
+}

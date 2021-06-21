@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:more_stone_break_speed",
+    "origins-classes:im_a_minor",
+    "origins-classes:down_in_the_deep",
+    "origins-classes:miner_kit"
+  ],
+  "icon": "minecraft:iron_pickaxe",
+  "order": 3,
+  "impact": 0
+}

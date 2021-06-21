@@ -1,0 +1,68 @@
+{
+  "type": "origins:multiple",
+  "craft_book": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:librarian/book",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:paper"
+        },
+        {
+          "item": "minecraft:paper"
+        },
+        {
+          "item": "minecraft:paper"
+        },
+        {
+          "tag": "minecraft:wooden_slabs"
+        }
+      ],
+      "result": {
+        "item": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  "craft_bookshelf": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:librarian/bookshelf",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "___",
+        "BBB",
+        "___"
+      ],
+      "key": {
+        "_": {
+          "tag": "minecraft:wooden_slabs"
+        },
+        "B": {
+          "item": "minecraft:book"
+        }
+      },
+      "result": {
+        "item": "minecraft:bookshelf",
+        "count": 1
+      }
+    }
+  },
+  "craft_writable_book": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:librarian/writable_book",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        }
+      ],
+      "result": {
+        "item": "minecraft:writable_book",
+        "count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "type": "origins:multiple",
+  "craft_minecart": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/minecart",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "# #",
+        "i#i"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:iron_nugget"
+        },
+        "i": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "result": {
+        "item": "minecraft:minecart",
+        "count": 1
+      }
+    }
+  },
+  "craft_dropper": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/dropper",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:dispenser"
+        }
+      ],
+      "result": {
+        "item": "minecraft:dropper",
+        "count": 1
+      }
+    }
+  },
+  "craft_dispenser": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/dispenser",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:dropper"
+        }
+      ],
+      "result": {
+        "item": "minecraft:dispenser",
+        "count": 1
+      }
+    }
+  },
+  "craft_hopper": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/hopper",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "i i",
+        "ICI",
+        " I "
+      ],
+      "key": {
+        "i": {
+          "item": "minecraft:iron_ingot"
+        },
+        "I": {
+          "item": "minecraft:iron_nugget"
+        },
+        "C": {
+          "item": "minecraft:chest"
+        }
+      },
+      "result": {
+        "item": "minecraft:hopper",
+        "count": 1
+      }
+    }
+  },
+  "craft_slime_block": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/slime_block",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:slime_ball"
+        },
+        {
+          "item": "minecraft:slime_ball"
+        },
+        {
+          "item": "minecraft:redstone_block"
+        },
+        {
+          "item": "minecraft:slime_ball"
+        },
+        {
+          "item": "minecraft:slime_ball"
+        }
+      ],
+      "result": {
+        "item": "minecraft:slime_block",
+        "count": 1
+      }
+    }
+  },
+  "craft_honey_block": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/honey_block",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:honeycomb"
+        },
+        {
+          "item": "minecraft:honeycomb"
+        }
+      ],
+      "result": {
+        "item": "minecraft:honey_block",
+        "count": 1
+      }
+    }
+  },
+  "craft_observer": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/observer",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "___",
+        "RRi",
+        "___"
+      ],
+      "key": {
+        "_": {
+          "item": "minecraft:cobblestone_slab"
+        },
+        "R": {
+          "item": "minecraft:redstone"
+        },
+        "i": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "result": {
+        "item": "minecraft:observer",
+        "count": 1
+      }
+    }
+  },
+  "craft_piston": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/piston",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "___",
+        "CIC",
+        "CRC"
+      ],
+      "key": {
+        "_": {
+          "tag": "minecraft:wooden_slabs"
+        },
+        "C": {
+          "item": "minecraft:cobblestone"
+        },
+        "I": {
+          "item": "minecraft:iron_nugget"
+        },
+        "R": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "result": {
+        "item": "minecraft:piston",
+        "count": 1
+      }
+    }
+  },
+  "craft_redstone_lamp": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/redstone_lamp",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:glowstone"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:redstone_lamp",
+        "count": 1
+      }
+    }
+  },
+  "craft_repeater": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/repeater",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "# #",
+        "CCC"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:redstone_torch"
+        },
+        "C": {
+          "item": "minecraft:cobblestone"
+        }
+      },
+      "result": {
+        "item": "minecraft:repeater",
+        "count": 1
+      }
+    }
+  },
+  "craft_comparator": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mechanic/comparator",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " # ",
+        "# #",
+        "CCC"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:redstone_torch"
+        },
+        "C": {
+          "item": "minecraft:cobblestone"
+        }
+      },
+      "result": {
+        "item": "minecraft:comparator",
+        "count": 1
+      }
+    }
+  }
+}

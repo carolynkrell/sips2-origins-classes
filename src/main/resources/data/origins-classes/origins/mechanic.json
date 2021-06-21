@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-classes:conductor",
+    "origins-classes:redstone_engineer",
+    "origins-classes:mechanic_kit"
+  ],
+  "icon": "minecraft:powered_rail",
+  "order": 17,
+  "impact": 0
+}

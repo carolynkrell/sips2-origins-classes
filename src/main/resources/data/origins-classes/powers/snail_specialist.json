@@ -1,0 +1,545 @@
+{
+    "type": "origins:multiple",
+    "perm_effects": {
+        "type": "origins:simple"
+    },
+    "craft_prismarine_shards": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/prismarine_shards",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "item": "minecraft:cobblestone"
+                },
+                {
+                    "item": "minecraft:cyan_dye"
+                }
+            ],
+            "result": {
+                "item": "minecraft:prismarine_shard",
+                "count": 4
+            }
+        }
+    },
+    "craft_prismarine_crystals": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/prismarine_crystals",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "item": "minecraft:glass_pane"
+                },
+                {
+                    "item": "minecraft:glowstone_dust"
+                },
+                {
+                    "item": "minecraft:cyan_dye"
+                }
+            ],
+            "result": {
+                "item": "minecraft:prismarine_crystals",
+                "count": 4
+            }
+        }
+    },
+    "craft_tube_coral_block": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/tube_coral_block",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:blue_dye"
+                },
+                {
+                    "item": "minecraft:cobblestone"
+                }
+            ],
+            "result": {
+                "item": "minecraft:tube_coral_block",
+                "count": 1
+            }
+        }
+    },
+    "craft_brain_coral_block": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/brain_coral_block",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:pink_dye"
+                },
+                {
+                    "item": "minecraft:cobblestone"
+                }
+            ],
+            "result": {
+                "item": "minecraft:brain_coral_block",
+                "count": 1
+            }
+        }
+    },
+    "craft_bubble_coral_block": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/bubble_coral_block",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:purple_dye"
+                },
+                {
+                    "item": "minecraft:cobblestone"
+                }
+            ],
+            "result": {
+                "item": "minecraft:bubble_coral_block",
+                "count": 1
+            }
+        }
+    },
+    "craft_fire_coral_block": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/fire_coral_block",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:red_dye"
+                },
+                {
+                    "item": "minecraft:cobblestone"
+                }
+            ],
+            "result": {
+                "item": "minecraft:fire_coral_block",
+                "count": 1
+            }
+        }
+    },
+    "craft_horn_coral_block": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/horn_coral_block",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:yellow_dye"
+                },
+                {
+                    "item": "minecraft:cobblestone"
+                }
+            ],
+            "result": {
+                "item": "minecraft:horn_coral_block",
+                "count": 1
+            }
+        }
+    },
+    "craft_tube_coral": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/tube_coral",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:yellow_dye"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                }
+            ],
+            "result": {
+                "item": "minecraft:tube_coral",
+                "count": 1
+            }
+        }
+    },
+    "craft_brain_coral": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/brain_coral",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:pink_dye"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                }
+            ],
+            "result": {
+                "item": "minecraft:brain_coral",
+                "count": 1
+            }
+        }
+    },
+    "craft_bubble_coral": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/bubble_coral",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:purple_dye"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                }
+            ],
+            "result": {
+                "item": "minecraft:bubble_coral",
+                "count": 1
+            }
+        }
+    },
+    "craft_fire_coral": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/fire_coral",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:red_dye"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                }
+            ],
+            "result": {
+                "item": "minecraft:fire_coral",
+                "count": 1
+            }
+        }
+    },
+    "craft_horn_coral": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/horn_coral",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:yellow_dye"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                }
+            ],
+            "result": {
+                "item": "minecraft:horn_coral",
+                "count": 1
+            }
+        }
+    },
+    "craft_tube_coral_fan": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/tube_coral_fan",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:blue_dye"
+                },
+                {
+                    "item": "minecraft:kelp"
+                }
+            ],
+            "result": {
+                "item": "minecraft:tube_coral_fan",
+                "count": 1
+            }
+        }
+    },
+    "craft_brain_coral_fan": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/brain_coral_fan",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:pink_dye"
+                },
+                {
+                    "item": "minecraft:kelp"
+                }
+            ],
+            "result": {
+                "item": "minecraft:brain_coral_fan",
+                "count": 1
+            }
+        }
+    },
+    "craft_bubble_coral_fan": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/bubble_coral_fan",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:purple_dye"
+                },
+                {
+                    "item": "minecraft:kelp"
+                }
+            ],
+            "result": {
+                "item": "minecraft:bubble_coral_fan",
+                "count": 1
+            }
+        }
+    },
+    "craft_fire_coral_fan": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/fire_coral_fan",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:red_dye"
+                },
+                {
+                    "item": "minecraft:kelp"
+                }
+            ],
+            "result": {
+                "item": "minecraft:fire_coral_fan",
+                "count": 1
+            }
+        }
+    },
+    "craft_horn_coral_fan": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/horn_coral_fan",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:sea_pickle"
+                },
+                {
+                    "item": "minecraft:yellow_dye"
+                },
+                {
+                    "item": "minecraft:kelp"
+                }
+            ],
+            "result": {
+                "item": "minecraft:horn_coral_fan",
+                "count": 1
+            }
+        }
+    },
+    "craft_cod_bucket": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/cod_bucket",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:cod"
+                },
+                {
+                    "item": "minecraft:water_bucket"
+                }
+            ],
+            "result": {
+                "item": "minecraft:cod_bucket",
+                "count": 1
+            }
+        }
+    },
+    "craft_salmon_bucket": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/salmon_bucket",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:salmon"
+                },
+                {
+                    "item": "minecraft:water_bucket"
+                }
+            ],
+            "result": {
+                "item": "minecraft:salmon_bucket",
+                "count": 1
+            }
+        }
+    },
+    "craft_pufferfish_bucket": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/pufferfish_bucket",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:pufferfish"
+                },
+                {
+                    "item": "minecraft:water_bucket"
+                }
+            ],
+            "result": {
+                "item": "minecraft:pufferfish_bucket",
+                "count": 1
+            }
+        }
+    },
+    "craft_tropical_fish_bucket": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/tropical_fish_bucket",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:tropical_fish"
+                },
+                {
+                    "item": "minecraft:water_bucket"
+                }
+            ],
+            "result": {
+                "item": "minecraft:tropical_fish_bucket",
+                "count": 1
+            }
+        }
+    },
+    "craft_sea_pickle": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/sea_pickle",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:kelp"
+                },
+                {
+                    "item": "minecraft:kelp"
+                },
+                {
+                    "item": "minecraft:rotten_flesh"
+                }
+            ],
+            "result": {
+                "item": "minecraft:sea_pickle",
+                "count": 1
+            }
+        }
+    },
+    "craft_slime_ball": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "origins-classes:malacologist/slime_ball",
+            "type": "minecraft:crafting_shapeless",
+            "ingredients": [
+                {
+                    "item": "minecraft:nautilus_shell"
+                }
+            ],
+            "result": {
+                "item": "minecraft:slime_ball",
+                "count": 30
+            }
+        }
+    }
+}

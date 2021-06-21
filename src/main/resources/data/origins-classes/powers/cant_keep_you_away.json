@@ -1,0 +1,51 @@
+{
+  "type": "origins:multiple",
+  "craft_golden_carrot": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:doctor/golden_carrot",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " # ",
+        "#C#",
+        " # "
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:gold_nugget"
+        },
+        "C": {
+          "item": "minecraft:carrot"
+        }
+      },
+      "result": {
+        "item": "minecraft:golden_carrot",
+        "count": 1
+      }
+    }
+  },
+  "craft_golden_apple": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:doctor/golden_apple",
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        " g ",
+        "gAg",
+        " g "
+      ],
+      "key": {
+        "g": {
+          "item": "minecraft:gold_ingot"
+        },
+        "A": {
+          "item": "minecraft:apple"
+        }
+      },
+      "result": {
+        "item": "minecraft:golden_apple",
+        "count": 1
+      }
+    }
+  }
+}

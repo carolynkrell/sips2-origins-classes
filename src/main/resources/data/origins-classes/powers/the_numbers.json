@@ -1,0 +1,129 @@
+{
+  "type": "origins:multiple",
+  "craft_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_exposed_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:exposed_cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_weathered_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:weathered_cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_oxidized_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:weathered_cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_waxed_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:waxed_cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_waxed_exposed_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:waxed_exposed_cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_waxed_weathered_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:waxed_weathered_cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_waxed_oxidized_cut_copper": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:waxed_oxidized_cut_copper"
+      }
+    },
+    "modifier": {
+      "name": "Mason copper amount modifier",
+      "operation": "addition",
+      "value": 2
+    }
+  },
+  "craft_scaffolding": {
+    "type": "origins-classes:craft_amount",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:scaffolding"
+      }
+    },
+    "modifier": {
+      "name": "Mason scaffolding amount modifier",
+      "operation": "addition",
+      "value": 6
+    }
+  }
+}

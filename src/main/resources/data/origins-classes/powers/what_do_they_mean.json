@@ -1,0 +1,293 @@
+{
+  "type": "origins:multiple",
+  "craft_convert_sand_to_cobblestone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_sand_to_cobblestone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:sand"
+        },
+        {
+          "item": "minecraft:sand"
+        }
+      ],
+      "result": {
+        "item": "minecraft:cobblestone",
+        "count": 2
+      }
+    }
+  },
+  "craft_convert_deepslate_to_smooth_stone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_deepslate_to_smooth_stone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:deepslate"
+        }
+      ],
+      "result": {
+        "item": "minecraft:smooth_stone",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_blackstone_to_deepslate": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_blackstone_to_deepslate",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:blackstone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:deepslate",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_polished_andesite_to_blackstone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_polished_andesite_to_blackstone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:polished_andesite"
+        }
+      ],
+      "result": {
+        "item": "minecraft:blackstone",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_polished_diorite_to_polished_andesite": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_polished_diorite_to_polished_andesite",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:polished_diorite"
+        }
+      ],
+      "result": {
+        "item": "minecraft:polished_andesite",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_polished_granite_to_polished_diorite": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_polished_granite_to_polished_diorite",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:polished_granite"
+        }
+      ],
+      "result": {
+        "item": "minecraft:polished_diorite",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_smooth_stone_to_polished_granite": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_smooth_stone_to_polished_granite",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:smooth_stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:polished_granite",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_gravel_to_sand": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_gravel_to_sand",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:gravel"
+        },
+        {
+          "item": "minecraft:gravel"
+        }
+      ],
+      "result": {
+        "item": "minecraft:sand",
+        "count": 2
+      }
+    }
+  },
+  "craft_convert_cobblestone_to_gravel": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_cobblestone_to_gravel",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        },
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:gravel",
+        "count": 2
+      }
+    }
+  },
+  "craft_convert_end_stone_to_stone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_end_stone_to_stone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:end_stone"
+        },
+        {
+          "item": "minecraft:end_stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:stone",
+        "count": 2
+      }
+    }
+  },
+  "craft_convert_stone_to_netherrack": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_stone_to_netherrack",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:stone"
+        },
+        {
+          "item": "minecraft:stone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:netherrack",
+        "count": 2
+      }
+    }
+  },
+  "craft_convert_netherrack_to_end_stone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_netherrack_to_end_stone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:netherrack"
+        },
+        {
+          "item": "minecraft:netherrack"
+        }
+      ],
+      "result": {
+        "item": "minecraft:end_stone",
+        "count": 2
+      }
+    }
+  },
+  "craft_convert_andesite_to_cobblestone": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_andesite_to_cobblestone",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:andesite"
+        }
+      ],
+      "result": {
+        "item": "minecraft:cobblestone",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_diorite_to_andesite": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_diorite_to_andesite",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:diorite"
+        }
+      ],
+      "result": {
+        "item": "minecraft:andesite",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_granite_to_diorite": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_granite_to_diorite",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:granite"
+        }
+      ],
+      "result": {
+        "item": "minecraft:diorite",
+        "count": 1
+      }
+    }
+  },
+  "craft_convert_cobblestone_to_granite": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/convert_cobblestone_to_granite",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:cobblestone"
+        }
+      ],
+      "result": {
+        "item": "minecraft:granite",
+        "count": 1
+      }
+    }
+  },
+  "craft_quartz": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:mason/quartz",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:quartz_block"
+        }
+      ],
+      "result": {
+        "item": "minecraft:quartz",
+        "count": 4
+      }
+    }
+  }
+}

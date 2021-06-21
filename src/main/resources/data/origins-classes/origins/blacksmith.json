@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:forge_port",
+    "origins-classes:efficient_repairs",
+    "origins-classes:should_be_vanilla",
+    "origins-classes:blacksmith_kit"
+  ],
+  "icon": "minecraft:iron_ingot",
+  "order": 6,
+  "impact": 0
+}

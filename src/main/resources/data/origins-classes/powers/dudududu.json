@@ -1,0 +1,30 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 2,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:speed",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:jump_boost",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+	"condition": {
+  		"type": "origins:equipped_item",
+  		"equipment_slot": "feet",
+  		"item_condition": {
+    		"type": "origins:ingredient",
+    		"ingredient": { 
+    			"item":"minecraft:leather_boots"
+    		}
+  		}
+	}
+}

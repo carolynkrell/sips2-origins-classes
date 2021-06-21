@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-classes:gunslinger",
+    "origins-classes:less_bow_slowdown",
+    "origins-classes:munitions_expert",
+    "origins-classes:fletcher_kit"
+  ],
+  "icon": "minecraft:flint",
+  "order": 11,
+  "impact": 0
+}
