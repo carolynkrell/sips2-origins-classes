@@ -20,3 +20,4 @@ Classes available are the following:
 
 For more information and a download link, visit the CurseForge page.# sips2-origins-classes
 # sips2-origins
+# sips2-origins
