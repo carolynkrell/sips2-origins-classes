@@ -19,3 +19,4 @@ Classes available are the following:
 * Warrior
 
 For more information and a download link, visit the CurseForge page.# sips2-origins-classes
+# sips2-origins
