@@ -1,23 +1,24 @@
-# Origins: Classes
+# SipSMP2 Presents: Origins: Classes
 
-This mod is an add-on to the Origins mod. In addition to choosing an origin, you now also choose a class.
-Classes available are the following:
+This mod is an absolutely butchered version of the Origins: Classes mod.
 
-* Archer
-* Beastmaster
+* Baker
+* Banker
+* Beekeeper
 * Blacksmith
-* Cleric
-* Cook
+* Botanist
+* Doctor
 * Explorer
-* Farmer
+* Fisherman
+* Fletcher
+* Hunter
+* Librarian
 * Lumberjack
-* Merchant
+* Malacologist
+* Mason
+* Mechanic
 * Miner
-* Nitwit
+* Moonshiner
 * Rancher
-* Rogue
-* Warrior
 
-For more information and a download link, visit the CurseForge page.# sips2-origins-classes
-# sips2-origins
-# sips2-origins
+https://docs.google.com/spreadsheets/d/1DEdalw2sgcfO_wpTOBQseMvN32RVARt9eae-i6ckC1M/edit?usp=sharing
