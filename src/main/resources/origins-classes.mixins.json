@@ -51,7 +51,9 @@
     "ItemEntryAccessor",
     "CombinedEntryAccessor",
     "TagEntryAccessor",
-    "BrewingStandPotionSlotMixin"
+    "BrewingStandPotionSlotMixin",
+    "ItemAccessor",
+    "AnvilBlockMixin"
   ],
   "client": [
     "ClientPlayerEntityMixin",

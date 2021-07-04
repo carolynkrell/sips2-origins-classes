@@ -1,5 +1,5 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:lectern"
@@ -7,5 +7,6 @@
     {
       "item": "minecraft:name_tag"
     }
-  ]
+  ],
+  "recurrent": false
 }

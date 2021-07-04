@@ -1,5 +1,5 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:iron_hoe"
@@ -8,5 +8,6 @@
       "item": "minecraft:lead",
       "amount": 4
     }
-  ]
+  ],
+  "recurrent": false
 }

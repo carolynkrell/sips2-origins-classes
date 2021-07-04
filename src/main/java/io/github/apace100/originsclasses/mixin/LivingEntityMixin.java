@@ -1,14 +1,10 @@
 package io.github.apace100.originsclasses.mixin;
 
-import io.github.apace100.origins.Origins;
 import io.github.apace100.originsclasses.OriginsClasses;
 import io.github.apace100.originsclasses.power.ClassPowerTypes;
+import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
-import net.minecraft.entity.DamageUtil;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.*;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -16,19 +12,14 @@ import net.minecraft.entity.mob.Monster;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.SquidEntity;
 import net.minecraft.entity.passive.TameableEntity;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.ArmorMaterials;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraft.item.Item.Settings;
-import net.minecraft.item.ItemStack;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.context.LootContext;
 import net.minecraft.loot.context.LootContextTypes;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
-
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Invoker;
 import org.spongepowered.asm.mixin.injection.At;
@@ -51,26 +42,23 @@ public abstract class LivingEntityMixin extends Entity {
 	@Inject(method = "dropLoot", at = @At(value = "INVOKE", target = "Lnet/minecraft/loot/LootTable;generateLoot(Lnet/minecraft/loot/context/LootContext;Ljava/util/function/Consumer;)V"), locals = LocalCapture.CAPTURE_FAILHARD)
     private void dropAdditionalRancherLoot(DamageSource source, boolean causedByPlayer, CallbackInfo ci, Identifier identifier, LootTable lootTable, LootContext.Builder builder) {
         if(causedByPlayer && (Object)this instanceof AnimalEntity && ClassPowerTypes.HARD_WORKIN.isActive(source.getAttacker())) {
-            if(new Random().nextInt(10) < 3) {
+            if(new Random().nextInt(10) < 5) {
                 lootTable.generateLoot(builder.build(LootContextTypes.ENTITY), ((LivingEntity)(Object)this)::dropStack);
-                Origins.LOGGER.info("Jackpot! Dropping 2x Rancher loot");
             }
         }
         else if(causedByPlayer && (Object)this instanceof SquidEntity && ClassPowerTypes.CATCH_AND_RELEASE.isActive(source.getAttacker())) {
-            if(new Random().nextInt(10) < 3) {
+            if(new Random().nextInt(10) < 5) {
                 lootTable.generateLoot(builder.build(LootContextTypes.ENTITY), ((LivingEntity)(Object)this)::dropStack);
-                Origins.LOGGER.info("Jackpot! Dropping 2x Malacologist loot");
             }
         }
         else if(causedByPlayer && (Object)this instanceof Monster && ClassPowerTypes.ONE_IN_75_TRILLION.isActive(source.getAttacker())) {
-            if(new Random().nextInt(10) < 3) {
+            if(new Random().nextInt(10) < 5) {
                 lootTable.generateLoot(builder.build(LootContextTypes.ENTITY), ((LivingEntity)(Object)this)::dropStack);
-                Origins.LOGGER.info("Jackpot! Dropping 2x Hunter loot");
             }
         }
     }
     
-    @Inject(method = "addStatusEffect", at = @At("RETURN"))
+    @Inject(method = "addStatusEffect(Lnet/minecraft/entity/effect/StatusEffectInstance;)Z", at = @At("RETURN"))
     private void addStatusEffect(StatusEffectInstance effect, CallbackInfoReturnable<Boolean> ci) {
         if (ci.getReturnValue() && !effect.isAmbient()) {
             if(ClassPowerTypes.TAMED_POTION_DIFFUSAL.isActive(this)) {
@@ -80,13 +68,15 @@ public abstract class LivingEntityMixin extends Entity {
     }
     
     
-    @ModifyVariable(method = "getNextAirUnderwater", at = @At("RETURN"), ordinal = 0)
-    	private int getNextAirUnderwater$OriginsClasses(int originalRespirationLevel, int air) {
-    	int modifiedRespirationLevel = originalRespirationLevel;
-    	if (ClassPowerTypes.BUILT_DIFFERENT.isActive(this) || ClassPowerTypes.SNAIL_SPECIALIST.isActive(this)) {
-    		modifiedRespirationLevel++;
-    	}
-    	return modifiedRespirationLevel;
+    @Inject(method = "getNextAirUnderwater", at = @At(value = "HEAD"), cancellable = true)
+    	private void getNextAirUnderwater$OriginsClasses(int air, CallbackInfoReturnable<Integer> ci) {
+		int i = EnchantmentHelper.getRespiration((LivingEntity) (Object) this);
+		if (ClassPowerTypes.BUILT_DIFFERENT.isActive(this) || ClassPowerTypes.SNAIL_SPECIALIST.isActive(this)) {
+			if (i == 0) {
+				i++;
+			}
+		}
+		ci.setReturnValue(i > 0 && this.random.nextInt(i + 1) > 0 ? air : air - 1);
     }
     
     
@@ -95,19 +85,15 @@ public abstract class LivingEntityMixin extends Entity {
     	private int applyEnchantmentsToDamage$OriginsClasses(int originalK, DamageSource source, float amount) {
     		int modifiedK = 0;
     		if (ClassPowerTypes.BUILT_DIFFERENT.isActive(this)) {
-    			Origins.LOGGER.info("got here 1");
     			if (source == DamageSource.FALL) {
-    				Origins.LOGGER.info("got here 2");
     				if (((LivingEntity) (Object) this).getEquippedStack(EquipmentSlot.FEET) != null) {
         				ItemStack is = ((LivingEntity) (Object) this).getEquippedStack(EquipmentSlot.FEET);
         				if (!is.getEnchantments().contains(Enchantments.FEATHER_FALLING)) {
         					modifiedK += 3;
-        					Origins.LOGGER.info("Adding feather falling... " + originalK + " -> " + modifiedK);
         				}
         			}
     				else {
     					modifiedK += 3;
-    					Origins.LOGGER.info("Adding feather falling... " + originalK + " -> " + modifiedK);
     				}
     			}
     		}

@@ -438,7 +438,7 @@
                     "item": "minecraft:cod"
                 },
                 {
-                    "item": "minecraft:water_bucket"
+                    "item": "minecraft:bucket"
                 }
             ],
             "result": {
@@ -457,7 +457,7 @@
                     "item": "minecraft:salmon"
                 },
                 {
-                    "item": "minecraft:water_bucket"
+                    "item": "minecraft:bucket"
                 }
             ],
             "result": {
@@ -476,7 +476,7 @@
                     "item": "minecraft:pufferfish"
                 },
                 {
-                    "item": "minecraft:water_bucket"
+                    "item": "minecraft:bucket"
                 }
             ],
             "result": {
@@ -495,7 +495,7 @@
                     "item": "minecraft:tropical_fish"
                 },
                 {
-                    "item": "minecraft:water_bucket"
+                    "item": "minecraft:bucket"
                 }
             ],
             "result": {

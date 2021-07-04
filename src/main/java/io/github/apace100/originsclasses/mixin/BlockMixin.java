@@ -21,12 +21,12 @@ public class BlockMixin {
     @Inject(method = "afterBreak", at = @At("TAIL"))
     private void afterBreak$OriginsClasses(World world, PlayerEntity player, BlockPos pos, BlockState state, BlockEntity blockEntity, ItemStack stack, CallbackInfo ci) {
         if(state.getBlock() instanceof CropBlock || state.getBlock() instanceof MelonBlock) {
-            if(player != null && ClassPowerTypes.MORE_CROP_DROPS.isActive(player) && new Random().nextInt(10) < 3) {
+            if(player != null && ClassPowerTypes.MORE_CROP_DROPS.isActive(player) && new Random().nextInt(10) < 5) {
                 dropStacks(state, world, pos, blockEntity, player, stack);
             }
         }
         if(state.getBlock() instanceof OreBlock) {
-        	if(player != null && ClassPowerTypes.DOWN_IN_THE_DEEP.isActive(player) && new Random().nextInt(10) < 3) {
+        	if(player != null && ClassPowerTypes.DOWN_IN_THE_DEEP.isActive(player) && new Random().nextInt(10) < 5) {
                 dropStacks(state, world, pos, blockEntity, player, stack);
             }
         }

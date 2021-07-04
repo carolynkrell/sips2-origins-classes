@@ -1,5 +1,5 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:shears"
@@ -58,5 +58,6 @@
     {
       "item": "minecraft:oak_sapling"
     }
-  ]
+  ],
+  "recurrent": false
 }

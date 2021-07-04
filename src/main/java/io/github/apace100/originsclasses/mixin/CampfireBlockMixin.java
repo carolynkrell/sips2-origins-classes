@@ -6,8 +6,7 @@ import io.github.apace100.originsclasses.registry.ModTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CampfireBlock;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.FoodComponent;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -38,6 +37,26 @@ public abstract class CampfireBlockMixin {
             player.giveItemStack(is2);
             cir.setReturnValue(ActionResult.SUCCESS);
         }
+        else if((!itemStack.hasTag() || (!itemStack.getTag().getBoolean("BlacksmithHeated") && !itemStack.getTag().getBoolean("BlacksmithBonus"))) && ClassPowerTypes.FORGE_PORT.isActive(player) && isEquipment(itemStack)) {
+            ItemStack is2 = itemStack.copy();
+            itemStack.decrement(1);
+            is2.setCount(1);
+            is2.getOrCreateTag().putBoolean("BlacksmithHeated", true);
+            player.giveItemStack(is2);
+            cir.setReturnValue(ActionResult.SUCCESS);
+        }
     }
 
+    private static boolean isEquipment(ItemStack stack) {
+        Item item = stack.getItem();
+        if(item instanceof ArmorItem)
+            return true;
+        if(item instanceof ToolItem)
+            return true;
+        if(item instanceof RangedWeaponItem)
+            return true;
+        if(item instanceof ShieldItem)
+            return true;
+        return false;
+    }
 }

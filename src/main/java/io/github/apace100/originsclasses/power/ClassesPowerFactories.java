@@ -15,6 +15,7 @@ import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tag.BlockTags;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Pair;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.registry.Registry;
 
@@ -39,6 +40,35 @@ public class ClassesPowerFactories {
                             if(data.isPresent("modifiers")) {
                                 ((List<EntityAttributeModifier>)data.get("modifiers"))
                                         .forEach(power::addModifier);
+                            }
+                            return power;
+                        }));
+        register(new PowerFactory<>(new Identifier(OriginsClasses.MODID,"starting_equipment"),
+                new SerializableData()
+                        .add("stack", ApoliDataTypes.POSITIONED_ITEM_STACK, null)
+                        .add("stacks", ApoliDataTypes.POSITIONED_ITEM_STACKS, null),
+                data ->
+                        (type, player) -> {
+                            io.github.apace100.originsclasses.power.StartingEquipmentPower power = new io.github.apace100.originsclasses.power.StartingEquipmentPower(type, player);
+                            if(data.isPresent("stack")) {
+                                Pair<Integer, ItemStack> stack = (Pair<Integer, ItemStack>)data.get("stack");
+                                int slot = stack.getLeft();
+                                if(slot > Integer.MIN_VALUE) {
+                                    power.addStack(stack.getLeft(), stack.getRight());
+                                } else {
+                                    power.addStack(stack.getRight());
+                                }
+                            }
+                            if(data.isPresent("stacks")) {
+                                ((List<Pair<Integer, ItemStack>>)data.get("stacks"))
+                                        .forEach(integerItemStackPair -> {
+                                            int slot = integerItemStackPair.getLeft();
+                                            if(slot > Integer.MIN_VALUE) {
+                                                power.addStack(integerItemStackPair.getLeft(), integerItemStackPair.getRight());
+                                            } else {
+                                                power.addStack(integerItemStackPair.getRight());
+                                            }
+                                        });
                             }
                             return power;
                         }));

@@ -1,8 +1,9 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:smithing_table"
     }
-  ]
+  ],
+  "recurrent": false
 }

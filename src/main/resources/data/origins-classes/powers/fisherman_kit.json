@@ -1,9 +1,10 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:fishing_rod",
       "tag": "{Enchantments:[{ id:\"minecraft:mending\", lvl:1s}]}"
     }
-  ]
+  ],
+  "recurrent": false
 }

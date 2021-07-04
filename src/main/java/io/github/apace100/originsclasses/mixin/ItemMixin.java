@@ -33,6 +33,11 @@ public abstract class ItemMixin {
                     int bonus = tag.getInt("FoodBonus");
                     tooltip.add(new TranslatableText("origins-classes.food_bonus", bonus).formatted(Formatting.GRAY));
                 }
+                if(tag.contains("BlacksmithBonus")) {
+                    if (tag.getBoolean("BlacksmithBonus")) {
+                        tooltip.add(new TranslatableText("origins-classes.blacksmith_bonus").formatted(Formatting.GRAY));
+                    }
+                }
                 if(tag.contains("MiningSpeedMultiplier")) {
                     int bonusInt = Math.round((tag.getFloat("MiningSpeedMultiplier") - 1F) * 100);
                     String bonus = bonusInt > 0 ? ("+" + bonusInt + "%") : (bonusInt + "%");
@@ -40,6 +45,11 @@ public abstract class ItemMixin {
                 }
                 if(tag.contains("BetterBonemeal")) {
                     tooltip.add(new TranslatableText("origins-classes.better_bonemeal").formatted(Formatting.GRAY));
+                }
+                if(tag.contains("BlacksmithHeated")) {
+                    if (tag.getBoolean("BlacksmithHeated")) {
+                        tooltip.add(new TranslatableText("origins-classes.blacksmith_heated").formatted(Formatting.GOLD));
+                    }
                 }
             }
         }

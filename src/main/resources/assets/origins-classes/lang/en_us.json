@@ -5,7 +5,9 @@
 
   "origins-classes.food_bonus": "Nourishment: +%s",
   "origins-classes.mining_speed_bonus": "Mining Speed: %s",
-  "origins-classes.better_bonemeal": "Botanist Boosted",
+  "origins-classes.blacksmith_bonus": "Blacksmith Forged",
+  "origins-classes.blacksmith_heated": "Heated",
+  "origins-classes.better_bonemeal": "Extra Fertile",
   "origins-classes.longer_potions": "Extended",
   "origins-classes.alcohol": "Alcohol",
 

@@ -1,5 +1,5 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:brewing_stand"
@@ -10,5 +10,6 @@
     {
       "item": "minecraft:soul_sand"
     }
-  ]
+  ],
+  "recurrent": false
 }

@@ -1,5 +1,5 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:potion",
@@ -16,5 +16,6 @@
     {
       "item": "minecraft:brewing_stand"
     }
-  ]
+  ],
+  "recurrent": false
 }

@@ -1,5 +1,5 @@
 {
-  "type": "origins:starting_equipment",
+  "type": "origins-classes:starting_equipment",
   "stacks": [
     {
       "item": "minecraft:rail",
@@ -12,5 +12,6 @@
       "item": "minecraft:redstone",
       "amount": 32
     }
-  ]
+  ],
+  "recurrent": false
 }
