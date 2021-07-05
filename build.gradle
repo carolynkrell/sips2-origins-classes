@@ -49,6 +49,8 @@ dependencies {
 	modImplementation ("com.github.virtuoel:pehkui:${project.pehkui_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+
+	modImplementation "com.github.xanderkrell:unitedseandollars:${project.usd_version}"
 }
 
 processResources {

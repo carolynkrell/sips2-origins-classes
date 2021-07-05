@@ -67,7 +67,24 @@
         }
       },
       "result": {
-        "item": "minecraft:barrel"
+        "item": "minecraft:barrel",
+        "count": 1
+      }
+    }
+  },
+  "usd": {
+    "type": "origins:recipe",
+    "recipe": {
+      "id": "origins-classes:banker/usd",
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        {
+          "item": "minecraft:paper"
+        }
+      ],
+      "result": {
+        "item": "unitedseandollars:usd",
+        "count": 1
       }
     }
   }
